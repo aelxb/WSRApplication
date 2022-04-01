@@ -1,0 +1,25 @@
+﻿<Window x:Class="WSRApplication.adduserwindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WSRApplication"
+        mc:Ignorable="d"
+        Title="adduserwindow" Height="1080" Width="1920">
+    <Grid>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="835,215,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="secname" HorizontalAlignment="Left" Margin="835,244,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="surname" HorizontalAlignment="Left" Margin="835,270,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Margin="834,297,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="834,323,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="role" HorizontalAlignment="Left" Margin="835,348,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="birthday" HorizontalAlignment="Left" Margin="843,376,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="education" HorizontalAlignment="Left" Margin="835,406,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="post" HorizontalAlignment="Left" Margin="835,430,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="835,506,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click"/>
+        <Label Content="Опыт работы" HorizontalAlignment="Left" Margin="836,456,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="exp" HorizontalAlignment="Left" Margin="918,460,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="36"/>
+        <TextBox x:Name="work" HorizontalAlignment="Left" Margin="834,482,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

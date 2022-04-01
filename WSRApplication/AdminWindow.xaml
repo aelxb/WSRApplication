@@ -1,0 +1,14 @@
+﻿<Window x:Class="WSRApplication.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WSRApplication"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="1080" Width="1920">
+    <Grid>
+        <DataGrid x:Name="users" Margin="10,10,10,140"/>
+        <Button x:Name="deleteuser" Content="Удалить" Margin="0, 920, 1600,0" Width="200" Height="100" FontSize="50" Click="deleteuser_Click"/>
+        <Button x:Name="adduser" Content="Добавить" Margin="0, 920, 1100,0" Width="250" Height="100" FontSize="50" Click="adduser_Click"/>
+    </Grid>
+</Window>

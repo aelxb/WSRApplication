@@ -1,0 +1,19 @@
+﻿<Window x:Class="WSRApplication.AddStore"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WSRApplication"
+        mc:Ignorable="d"
+        Title="AddStore" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="323,141,0,0" x:Name="name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="323,171,0,0" x:Name="storename" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="334,199,0,0" VerticalAlignment="Top" x:Name="expdate"/>
+        <TextBox HorizontalAlignment="Left" Margin="324,233,0,0" x:Name="count" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <TextBox HorizontalAlignment="Left" Margin="323,258,0,0" x:Name="price" TextWrapping="Wrap" VerticalAlignment="Top" Width="54"/>
+        <ComboBox HorizontalAlignment="Left" x:Name="Category" Margin="327,285,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="348,321,0,0" VerticalAlignment="Top" Width="79" Click="Button_Click"/>
+
+    </Grid>
+</Window>
